@@ -1,4 +1,3 @@
-Code:
 #include <stdio.h>
 #include <string.h>
 
@@ -119,17 +118,3 @@ int main() {
 
     return 0;
 }
-
-
-
-//Explicação do Código:
-*Cadastro de Paciente: O usuário insere seu nome, idade e CPF. A função verificarIdade valida se o paciente é maior de 18 anos.
-*Agendamento de Consulta: O sistema permite que o usuário agende uma consulta com um médico, verificando se o horário da consulta está dentro do horário de funcionamento (08:00 - 17:00).
-*Verificação de Condições de Saúde: Simula a coleta de dados de dispositivos vestíveis (batimentos cardíacos e nível de glicose) e emite alertas se algum valor estiver fora dos padrões normais.
-*Menu Interativo: Oferece ao usuário a opção de agendar consultas, verificar condições de saúde ou sair do sistema. Utiliza uma estrutura de repetição e switch-case para navegar entre as opções.
-
-//Estruturas Condicionais Utilizadas:
-if para verificar a idade: Garante que o paciente seja maior de idade.
-if-else para horário de consultas: Valida se o horário escolhido está no intervalo permitido.
-if-else para monitoramento de saúde: Avalia os batimentos cardíacos e níveis de glicose para emitir alertas caso estejam fora dos limites normais.
-Este código pode ser expandido para incluir funcionalidades mais complexas e sofisticadas, como persistência de dados, integração com APIs, ou autenticação de usuários.
